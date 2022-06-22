@@ -1,0 +1,39 @@
+1. Fazer um programa para ler dados de uma conta bancária e depois realizar um saque nesta conta bancária, mostrando o novo saldo.
+Um saque não pode ocorrer ou se não houver saldo na conta, ou se o valor do saque for superior ao limite de saque.
+Um deposito não pode ser realizado se o valor for negativo.
+
+
+
+Estudo de caso: saque em conta bancária;
+Conceito
+Delegação de responsabilidades;
+Manutenção
+
+
+abstração
+
+herança
+
+encapsulamento
+
+polimorfismo
+
+A aplicação na poupança não possui carência, você aplica e saca no momento que desejar.
+Uma comodidade que os bancos costumam oferecer em suas contas correntes é o resgate automático da poupança,
+ou seja, você deixa todo seu dinheiro na poupança e a cada movimentação que fizer na conta corrente, o dinheiro
+ será “puxado” automaticamente da poupança.
+
+ Conta corrente:
+ 1 - Pode sacar/depositar;
+ 2 - Transferência diária LIMITADA;
+ 3 - Maior TAXA de transferência;
+ 4 - Não acumula valor;
+
+ Conta poupança:
+  1 - Pode sacar/depositar;
+  2 - Transferência diária ILIMITADA;
+  3 - Menor TAXA de transferência;
+  4 - Acumula valor;
+
+
+
